@@ -1,3 +1,17 @@
 @import "@fontsource/inter/400.css";
 @import "@fontsource/inter/500.css";
 @import "@fontsource/inter/700.css";
+
+.bg-custom-blue {
+    background-color: #43A5FF;
+}
+
+.text-custom-blue {
+    color: #43A5FF;
+}
+
+.accent-box {
+    width: 6rem;
+    height: 0.5rem;
+    background-color: #F08700;
+}

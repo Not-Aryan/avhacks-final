@@ -1,0 +1,200 @@
+{
+    "name": "Hack Pennsylvania",
+    "title": "Hack Pennsylvania – PA’s premiere high school hackathon",
+    "description": "Register today for 24 hours of coding, fun, free food, and prizes. Hack Pennsylvania comes to State College, PA on January 19, 2019.",
+    "url": "https://hackpenn.com",
+    "twitter": "@hackpenn",
+    "img": "https://hackpenn.com/card.png",
+    "urls": {
+      "twitter": "https://twitter.com/hackpenn",
+      "instagram": "https://www.instagram.com/hackpenn",
+      "facebook": "https://fb.me/hackpennsylvania",
+      "messenger": "https://m.me/hackpennsylvania",
+      "email": "mailto:contact@hackpenn.com"
+    },
+    "org": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "hackpenn",
+      "url": "https://hackpenn.com",
+      "logo": "https://hackpenn.com/flag.png",
+      "sameAs": [
+        "https://twitter.com/hackpenn",
+        "https://www.instagram.com/hackpenn",
+        "https://www.facebook.com/hackpenn"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "email": "contact@hackpenn.com",
+          "contactType": "customer support",
+          "url": "https://hackpenn.com"
+        }
+      ]
+    },
+    "event": {
+      "@context": "http://schema.org/",
+      "@type": "Event",
+      "name": "Hack Pennsylvania",
+      "description": "Register today for 24 hours of coding, fun, free food, and prizes. Hack Pennsylvania comes to State College, PA on January 19, 2019.",
+      "url": "https://hackpenn.com",
+      "image": "https://hackpenn.com/flag.png",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "State College",
+          "addressRegion": "PA"
+        }
+      },
+      "sponsor": {
+        "@type": "Organization",
+        "name": "Hack Club",
+        "url": "https://hackclub.com"
+      },
+      "startDate": "2019-01-19T12:00",
+      "endDate": "2019-01-19T12:00",
+      "isAccessibleForFree": true
+    },
+    "leaders": [
+      { "name": "Lachlan Campbell", "pronouns": "they/them" },
+      { "name": "Joy Liu", "pronouns": "she/her" },
+      { "name": "Jasmine Cao", "pronouns": "she/her" },
+      { "name": "Theo Bleier", "pronouns": "he/him" },
+      { "name": "Matthew Stanciu", "pronouns": "he/him" },
+      { "name": "Zane Davis-Barrs", "pronouns": "he/him" }
+    ],
+    "sponsors": [
+      {
+        "name": "ZEIT",
+        "link": "https://zeit.co",
+        "image": "zeit.svg"
+      },
+      {
+        "name": "Mike’s TV & Appliance",
+        "link": "http://www.mikesvideo.com/",
+        "image": "mikes.png"
+      },
+      {
+        "name": "Invent Penn State",
+        "link": "https://invent.psu.edu",
+        "image": "ips.png"
+      },
+      {
+        "name": "Linode",
+        "link": "https://linode.com",
+        "image": "linode.png"
+      },
+      {
+        "name": "AGI",
+        "link": "http://www.agintegrated.com/",
+        "image": "agi.gif"
+      },
+      {
+        "name": "1Password",
+        "link": "https://1password.com",
+        "image": "1password.png"
+      },
+      {
+        "name": "Lambda School",
+        "link": "https://lambdaschool.com",
+        "image": "lambda.png"
+      },
+      {
+        "name": "Repl.it",
+        "link": "https://repl.it",
+        "image": "replit.png"
+      },
+      {
+        "name": "Think Company",
+        "link": "https://www.thinkcompany.com//",
+        "image": "thinkco.png"
+      },
+      {
+        "name": "Ben Franklin Technology Partners",
+        "link": "https://benfranklin.org/",
+        "image": "ben-franklin.jpg"
+      },
+      {
+        "name": "Hack Club Bank",
+        "link": "https://hackclub.com/bank",
+        "image": "hackclub-bank.svg"
+      }
+    ],
+    "additionalSupport": [
+      {
+        "name": "Sketch",
+        "link": "https://sketchapp.com/",
+        "image": "sketch.svg"
+      },
+      {
+        "name": "Notion",
+        "link": "https://www.notion.so/product",
+        "image": "notion.svg"
+      },
+      {
+        "name": ".tech Domains",
+        "link": "https://get.tech/",
+        "image": "dottech.png"
+      },
+      {
+        "name": "ExpressVPN",
+        "link": "https://www.expressvpn.com/",
+        "image": "expressvpn.png"
+      }
+    ],
+    "prizes": [],
+    "schedule": [
+      {
+        "date": "Saturday, Jan 19",
+        "events": [
+          {
+            "time": "7:30am",
+            "name": "Doors Open",
+            "emoji": "👋"
+          },
+          {
+            "time": "9:00 AM",
+            "name": "Opening Ceremony",
+            "emoji": "📢"
+          },
+          {
+            "time": "9:30 AM",
+            "name": "Hacking Begins",
+            "emoji": "👩‍💻"
+          },
+          {
+            "time": "9:30pm",
+            "name": "Team Formation (optional)",
+            "emoji": "👥"
+          },
+          {
+            "time": "12:30 PM",
+            "name": "Lunch",
+            "emoji": "🍕"
+          },
+          {
+            "time": "1:30 PM",
+            "name": "Workshops Begin",
+            "emoji": "⚒"
+          },
+          {
+            "time": "6:30 pm",
+            "name": "Submissions Due",
+            "emoji": "🕹"
+          },
+          {
+            "time": "7:00pm",
+            "name": "Dinner",
+            "emoji": "🍽️"
+          },
+          {
+            "time": "8:00pm",
+            "name": "Awards",
+            "emoji": "🏆"
+          }
+        ]
+      }
+    ]
+  }
+  
