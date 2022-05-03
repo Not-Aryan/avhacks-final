@@ -59,15 +59,7 @@ const FAQ = () => (
           />
           <Question
             name="Who runs this? Is it supervised?"
-            body={
-              <>
-                We’re independently-organized by high schoolers, sponsored via an intl. non-profit called{` `}
-                <a href="https://hackclub.com" color="red">
-                  Hack Club
-                </a>
-                . The event is fully supervised by over a dozen adults (with background checks).
-              </>
-            }
+            body="We’re independently-organized by high schoolers, sponsored via an intl. non-profit called Hack Club. The event is fully supervised by over a dozen adults (with background checks)."
           />
         </Questions>
       </div>
