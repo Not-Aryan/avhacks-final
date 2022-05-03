@@ -7,7 +7,13 @@ const Questions = styled.div.attrs({ maxWidth: 72, mt: [3, 4] })`
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
 `;
-const Question = ({ name, body }) => (
+
+interface QInterface {
+    name: string;
+    body: string;
+  }
+  
+const Question = ({ name, body }: QInterface) => (
   <a className={tw(`block p-6 max-w-sm bg-white rounded-lg border border-gray-200`)}>
     <h5 className={tw(`mb-4 text-2xl font-bold tracking-tight`)}>{name}</h5>
     <p className={tw(`text-xl font-normal`)}>{body}</p>
