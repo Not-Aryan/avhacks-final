@@ -28,7 +28,7 @@ const Schedule = () => (
         </div>
         <div className={tw(`mb-12 flex justify-center text-center`)}>
           {data.schedule.map((day) => (
-            <List mt={1}>
+            <List>
               {day.events.map((event) => (
                 <Event className={tw(`pt-4 pb-4`)}>
                   <strong className={tw(`mt-4 text-2xl lg:text-3xl font-bold tracking-tight text-gray-900`)}>
