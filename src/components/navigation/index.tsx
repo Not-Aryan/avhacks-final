@@ -1,6 +1,7 @@
 import { tw } from 'twind';
 import { useState } from 'react';
 import Button from '@/components/button';
+import Link from 'next/link'
 
 interface IMenuButton {
   toggleMenu: React.MouseEventHandler<HTMLButtonElement>;
@@ -136,7 +137,9 @@ const Navigation = () => {
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
               {/* <Button modifier="border-0 mr-2">Contact sales</Button>
               <Button modifier="border-0 mr-2">Log in</Button> */}
-              <Button primary>Register</Button>
+              <Link href="https://forms.gle/JUjF9Yxd5zytTx8Q8" >
+                <Button primary>Register</Button>
+              </Link>
             </div>
           </div>
           <div className={tw(`-mr-2 flex md:hidden`)}>
