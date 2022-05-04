@@ -35,11 +35,11 @@ const FAQ = () => (
           />
           <Question
             name="Who can participate?"
-            body="Any current student grades 8–12. If you’re under/over that age, send us a chat (in the corner) & we’ll see what we can do."
+            body="Any current student."
           />
           <Question
             name="What if I’m new to coding?"
-            body="Are you elemen-tree? Complete beginners are not only welcome, but expected! Learn as you go with our intro workshops & mentors."
+            body="Complete beginners are not only welcome, but expected! Learn as you go with our intro workshops & mentors."
           />
           <Question
             name="What if I already know how to code?"
@@ -51,11 +51,11 @@ const FAQ = () => (
           />
           <Question
             name="What can I make?"
-            body="Anything! A website, app, game, hardware, you name it. Judges will rate projects on creativity, technical skill demonstrated, polish, & utility."
+            body="Anything! A website, app, game, hardware, you name it. Judges will rate projects on creativity, social impact, technical skill demonstrated, polish, & utility."
           />
           <Question
             name="What should I bring?"
-            body="Student ID, computer, chargers, anything for your hack (hardware?), toiletries, & a sleeping bag (maybe). For a few dozen hackers we have $30 travel reimbursements (bring receipts)."
+            body="Computer, chargers, anything for your hack (hardware?)"
           />
           <Question
             name="Who runs this? Is it supervised?"
