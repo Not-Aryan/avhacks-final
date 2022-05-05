@@ -35,7 +35,7 @@ export default function Home() {
         <SocialProof />
         <PricingTable /> */}
       </main>
-      <Footer2 />
+      {/* <Footer2 /> */}
     </Page>
   );
 }

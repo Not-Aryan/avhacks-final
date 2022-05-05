@@ -9,8 +9,8 @@ const Register = () => (
           <p className={tw(`mt-8 mb-8 text-4xl lg:text-5xl font-bold tracking-tight text-white`)}>Register</p>
           <iframe
             title="registration form"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSeYonr-0QqNYFG6gVeJSnTq1l34rLO1lG-4xDYAvyt1LCxFxg/viewform?embedded=true"
-            width="640"
+            src="https://docs.google.com/forms/d/e/1FAIpQLScnJVKcOzx6cujWWq4UwGt4bVnG46S4-ZIFPgBtJYCuPDOIbA/viewform?embedded=true"
+            width="70%"
             height="1000"
             frameBorder="0"
           >
