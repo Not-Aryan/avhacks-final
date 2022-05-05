@@ -1,6 +1,6 @@
 {
-    "name": "Hack Pennsylvania",
-    "title": "Hack Pennsylvania – PA’s premiere high school hackathon",
+    "name": "AV Hacks",
+    "title": "AV Hacks – CA’s premiere high school hackathon",
     "description": "Register today for 24 hours of coding, fun, free food, and prizes. Hack Pennsylvania comes to State College, PA on January 19, 2019.",
     "url": "https://hackpenn.com",
     "twitter": "@hackpenn",
@@ -149,27 +149,27 @@
         "date": "Saturday, Jan 19",
         "events": [
           {
-            "time": "7:30am",
+            "time": "7:00am",
             "name": "Doors Open",
             "emoji": "👋"
           },
           {
-            "time": "9:00 AM",
+            "time": "8:00 AM",
             "name": "Opening Ceremony",
             "emoji": "📢"
           },
           {
-            "time": "9:30 AM",
+            "time": "8:30 AM",
             "name": "Hacking Begins",
             "emoji": "👩‍💻"
           },
           {
-            "time": "9:30pm",
+            "time": "8:30 AM",
             "name": "Team Formation (optional)",
             "emoji": "👥"
           },
           {
-            "time": "12:30 PM",
+            "time": "12:00 PM",
             "name": "Lunch",
             "emoji": "🍕"
           },
@@ -184,12 +184,12 @@
             "emoji": "🕹"
           },
           {
-            "time": "7:00pm",
+            "time": "6:45pm",
             "name": "Dinner",
             "emoji": "🍽️"
           },
           {
-            "time": "8:00pm",
+            "time": "7:45pm",
             "name": "Awards",
             "emoji": "🏆"
           }
