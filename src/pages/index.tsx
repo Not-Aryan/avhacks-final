@@ -20,7 +20,7 @@ export default function Home() {
     <Page>
       <NextSeo
         title="AV Hacks"
-        description="AV Hacks is a 12-hour event where 150 programmers, artists, designers, & other high schoolers from across the Bay Area will come together to build apps & games. We’ll provide workshops, mentorship, free meals & drinks, & prizes!"
+        description="AV Hacks is a 12-hour event where programmers, artists, designers, & other high schoolers from across the Bay Area will come together to build apps & games. We’ll provide workshops, mentorship, free meals & drinks, & prizes!"
       />
       <Header />
       <main>
