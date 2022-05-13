@@ -43,7 +43,7 @@ const About = () => (
         </div>
         <div className={tw(`flex flex-col text-center items-center justify-center`)}>
           <h3 className={tw(`pb-4 text-3xl lg:text-3xl tracking-wider text-gray-900`)}>
-            AV Hacks is a 12-hour event where programmers, artists, designers, & other high schoolers and middle
+            AV Hacks is a one day event where programmers, artists, designers, & other high schoolers and middle
             schoolers from across the Bay Area will come together to build apps & games. We’ll provide workshops,
             mentorship, free meals & drinks. Then, in the evening, judges will pick the best projects to demo and win
             prizes.
