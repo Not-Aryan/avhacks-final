@@ -9,18 +9,18 @@ const Footer2 = () => (
       </a>
       <ul className={tw(`flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0`)}>
         <li>
-          <a href="#schedule" className={tw(`text-lg  mr-4 hover:underline md:mr-6 `)}>
-            Schedule
+          <a href="#officers" className={tw(`text-lg  mr-4 hover:underline md:mr-6 `)}>
+            Officers
           </a>
         </li>
         <li>
-          <a href="https://codeday.acecoding.org/" className={tw(`text-lg  mr-4 hover:underline md:mr-6`)}>
-            Workshops
+          <a href="#calendar" className={tw(`text-lg  mr-4 hover:underline md:mr-6 `)}>
+            Calendar
           </a>
         </li>
         <li>
-          <a href="https://forms.gle/ppLQBiFfMhQ3Ar2s7" className={tw(`text-lg mr-4 hover:underline md:mr-6 `)}>
-            Register
+          <a href="#meetings" className={tw(`text-lg  mr-4 hover:underline md:mr-6 `)}>
+            Meetings
           </a>
         </li>
       </ul>

@@ -38,40 +38,38 @@ const About = () => (
         <div className={tw(`mb-12 flex flex-col text-center items-center justify-center`)}>
           <div className={tw(`accent-box`)} />
           <p className={tw(`mt-8 text-4xl lg:text-5xl font-bold tracking-tight text-gray-900`)}>
-            12 hours of coding, fun, free food, & prizes.
+            {/*12 hours of coding, fun, free food, & prizes.*/}
+            About Us
           </p>
         </div>
         <div className={tw(`flex flex-col text-center items-center justify-center`)}>
-          <h3 className={tw(`pb-4 text-3xl lg:text-3xl tracking-wider text-gray-900`)}>
-            AV Hacks is a one day event where programmers, artists, designers, & other high schoolers and middle
-            schoolers from across the Bay Area will come together to build apps & games. We’ll provide workshops,
-            mentorship, free meals & drinks. Then, in the evening, judges will pick the best projects to demo and win
-            prizes.
+          <h3 className={tw(`pb-20 text-xl lg:text-3xl tracking-wider text-gray-900`)}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet vestibulum ligula in gravida. Nullam sagittis ligula eget viverra lacinia. Curabitur ornare placerat eleifend. Morbi sem dolor, cursus vitae velit ut, tincidunt euismod enim. Mauris nibh nibh, accumsan a eros ac, congue molestie libero. Vestibulum vulputate porta finibus. Nullam metus nulla, luctus ut sapien vel, varius rhoncus nibh.
           </h3>
         </div>
 
-        {/* <Modules>
-                <Module
-                icon="welcome"
-                name="Beginner-oriented"
-                body="Students of all skill levels are welcome—we’ll hold multiple intro workshops & mentors will help you out!"
-                />
-                <Module
-                icon="emoji"
-                name="Endless fun"
-                body="It goes way beyond coding. Meet new friends, come to the 2am dance party, win prizes."
-                />
-                <Module
-                icon="rep"
-                name="Fabulous food"
-                body="You’ll be served Panera dinner, midnight ice cream, bagel breakfast, & continuous snacks. (alt’s available)"
-                />
-                <Module
-                icon="bag"
-                name="You woodn’t believe the prizes"
-                body="Pine over the AirPods, Google Home, Raspberry Pi, speakers, batteries, software subscriptions, & much more."
-                />
-            </Modules> */}
+       {/*<Modules>*/}
+       {/*         <Module*/}
+       {/*         icon="welcome"*/}
+       {/*         name="Beginner-oriented"*/}
+       {/*         body="Students of all skill levels are welcome—we’ll hold multiple intro workshops & mentors will help you out!"*/}
+       {/*         />*/}
+       {/*         <Module*/}
+       {/*         icon="emoji"*/}
+       {/*         name="Endless fun"*/}
+       {/*         body="It goes way beyond coding. Meet new friends, come to the 2am dance party, win prizes."*/}
+       {/*         />*/}
+       {/*         <Module*/}
+       {/*         icon="rep"*/}
+       {/*         name="Fabulous food"*/}
+       {/*         body="You’ll be served Panera dinner, midnight ice cream, bagel breakfast, & continuous snacks. (alt’s available)"*/}
+       {/*         />*/}
+       {/*         <Module*/}
+       {/*         icon="bag"*/}
+       {/*         name="You woodn’t believe the prizes"*/}
+       {/*         body="Pine over the AirPods, Google Home, Raspberry Pi, speakers, batteries, software subscriptions, & much more."*/}
+       {/*         />*/}
+       {/*     </Modules> */}
       </div>
     </section>
   </div>

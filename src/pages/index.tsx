@@ -1,19 +1,11 @@
 import { NextSeo } from 'next-seo';
 import Page from '@/components/page';
 import Header from '@/components/header';
-// import VideoSection from '@/components/video-section';
-// import ListSection from '@/components/list-section';
-// import FeatureSection from '@/components/feature-section';
-// import CasesSection from '@/components/cases-section';
-// import SocialProof from '@/components/social-proof';
-// import PricingTable from '@/components/pricing-table';
-// import Footer from '@/components/footer';
+import FeatureSection from '@/components/feature-section';
+import CasesSection from '@/components/cases-section';
 import Footer2 from '@/components/footer-real';
-
 import About from '@/components/about';
-import FAQ from '@/components/FAQ';
-import Schedule from '@/components/schedule';
-import Register from '@/components/register';
+import Calendar from "@/components/calendar";
 
 export default function Home() {
   return (
@@ -24,18 +16,12 @@ export default function Home() {
       />
       <Header />
       <main>
-        {/* <VideoSection /> */}
         <About />
-        <FAQ />
-        <Schedule />
-        <Register />
-
-        {/* <FeatureSection />
+        <FeatureSection />
         <CasesSection />
-        <SocialProof />
-        <PricingTable /> */}
+        <Calendar />
       </main>
-      {/* <Footer2 /> */}
+       <Footer2 />
     </Page>
   );
 }
