@@ -21,13 +21,13 @@ const links = [
     hidden: false,
   },
   {
-    label: "Calendar",
-    href: "#calendar",
+    label: "Officers",
+    href: "#officers",
     hidden: false,
   },
   {
-    label: "Officers",
-    href: "#officers",
+    label: "Calendar",
+    href: "#calendar",
     hidden: false,
   },
 
