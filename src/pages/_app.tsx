@@ -1,5 +1,6 @@
 import { AppProps } from 'next/app';
 import '@/styles/global.css';
+import "../styles/override.css";
 import '@fontsource/inter';
 
 import { setup } from 'twind';

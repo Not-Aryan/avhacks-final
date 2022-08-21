@@ -6,19 +6,19 @@ const meetingInfoData = [
     title: "First Meeting",
     date: 'March 20, 2020',
     description: 'Nostrud excepteur incididunt proident sit nulla ipsum sunt nostrud est esse adipisicing irure officia',
-    link: "https://forms.gle/JUjF9Yxd5zytTx8Q8",
+    link: "https://docs.google.com/forms/u/1/d/e/1FAIpQLScEI6BpxhazFEJqMdJThRRdyRCbQaHumVvqUtZixj1S2A9_sA/viewform?usp=send_form",
   },
   {
     title: "Second Meeting",
     date: 'March 20, 2020',
     description: 'Nostrud excepteur incididunt proident sit nulla ipsum sunt nostrud est esse adipisicing irure officia',
-    link: "https://forms.gle/JUjF9Yxd5zytTx8Q8",
+    link: "https://docs.google.com/forms/u/1/d/e/1FAIpQLScEI6BpxhazFEJqMdJThRRdyRCbQaHumVvqUtZixj1S2A9_sA/viewform?usp=send_form",
   },
   {
     title: "Third Meeting",
     date: 'March 20, 2020',
     description: 'Nostrud excepteur incididunt proident sit nulla ipsum sunt nostrud est esse adipisicing irure officia',
-    link: "https://forms.gle/JUjF9Yxd5zytTx8Q8",
+    link: "https://docs.google.com/forms/u/1/d/e/1FAIpQLScEI6BpxhazFEJqMdJThRRdyRCbQaHumVvqUtZixj1S2A9_sA/viewform?usp=send_form",
   }
 ]
 
@@ -36,7 +36,7 @@ const FeatureSection = () => (
         <div className={tw(`flex flex-wrap my-12`)}>
 
           {meetingInfoData.map((data, index) => (
-            <div className={tw(`w-full border-b lg:border-r rounded-3xl shadow-md p-8 my-4`)}>
+            <div className={tw(`w-full bg-white border-b lg:border-r rounded-3xl shadow-md p-8 my-4`)}>
               <div className={tw(`flex flex-col justify-start  mb-6`)}>
                 <Check  fill="currentColor" className={tw(`h-8 w-8 text-indigo-500`)} />
                 <div className={tw(`text-3xl`)}>{data.title}</div>

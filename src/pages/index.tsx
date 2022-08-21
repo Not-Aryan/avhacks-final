@@ -5,7 +5,8 @@ import FeatureSection from '@/components/feature-section';
 import CasesSection from '@/components/cases-section';
 import Footer2 from '@/components/footer-real';
 import About from '@/components/about';
-import Calendar from "@/components/calendar";
+import CalendarSection from "@/components/calendar";
+import {tw} from "twind";
 
 export default function Home() {
   return (
@@ -19,7 +20,13 @@ export default function Home() {
         <About />
         <FeatureSection />
         <CasesSection />
-        <Calendar />
+        <div className={tw(`mt-12 flex flex-col text-center items-center justify-center`)}>
+          <div className={tw(`accent-box`)} />
+          <p className={tw(`mt-8 text-4xl lg:text-5xl font-bold tracking-tight text-gray-900`)}>
+            Our Club Calendar
+          </p>
+        </div>
+        <CalendarSection />
       </main>
        <Footer2 />
     </Page>
