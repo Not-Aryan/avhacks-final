@@ -11,7 +11,7 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 
 // todo impl calendar logic here
-const writeToCalendar: ReactNode = (date: string) => {
+const writeToCalendar: Function = (date: string) => {
   return "the date is " + date;
 }
 
