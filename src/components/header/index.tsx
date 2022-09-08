@@ -21,13 +21,13 @@ const Header = () => (
         </h1>
       </div>
       <div className={tw(`max-w-xl mx-auto`)}>
-        <p className={tw(`mt-6 text-white text-center text-2xl lg:text-4xl`)}>May 14th, 2022</p>
+        <p className={tw(`mt-8 text-white text-center text-2xl lg:text-4xl`)}>Join us in B-1, every Monday at lunch!</p>
       </div>
-      <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
+      {/*<div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>*/}
         {/* <button type="button" className={tw(`bg-white font-sans text-4xl py-4 px-6 border rounded text-custom-blue`)}>
           Register
         </button> */}
-      </div>
+      {/*</div>*/}
     </div>
     {/* <div className={tw(`flex justify-center w-full`)}>
       <div className={tw(`mt-4 w-full`)}>

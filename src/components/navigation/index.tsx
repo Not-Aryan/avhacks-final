@@ -16,20 +16,31 @@ type Link = {
 
 const links = [
   {
-    label: `Schedule`,
-    href: `#schedule`,
+    label: "Meetings",
+    href: "#meetings",
     hidden: false,
   },
   {
-    label: `Workshops`,
-    href: `https://codeday.acecoding.org/`,
+    label: "Officers",
+    href: "#officers",
     hidden: false,
   },
   {
-    label: `Register`,
-    href: `https://forms.gle/JUjF9Yxd5zytTx8Q8`,
-    hidden: true,
+    label: "Calendar",
+    href: "#calendar",
+    hidden: false,
   },
+
+  // {
+  //   label: `Workshops`,
+  //   href: `https://codeday.acecoding.org/`,
+  //   hidden: false,
+  // },
+  // {
+  //   label: `Register`,
+  //   href: `https://forms.gle/JUjF9Yxd5zytTx8Q8`,
+  //   hidden: true,
+  // },
 ];
 
 // const secondaryLinks = [
@@ -138,7 +149,7 @@ const Navigation = () => {
               {/* <Button modifier="border-0 mr-2">Contact sales</Button>
               <Button modifier="border-0 mr-2">Log in</Button> */}
               <Link href="https://forms.gle/HjixYDAEFxDPfDwY8" >
-                <Button primary>Register</Button>
+                <Button primary>Register Here!</Button>
               </Link>
             </div>
           </div>

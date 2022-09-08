@@ -1,21 +1,24 @@
 import { NextSeo } from 'next-seo';
 import Page from '@/components/page';
 import Header from '@/components/header';
-// import VideoSection from '@/components/video-section';
-// import ListSection from '@/components/list-section';
-// import FeatureSection from '@/components/feature-section';
-// import CasesSection from '@/components/cases-section';
-// import SocialProof from '@/components/social-proof';
-// import PricingTable from '@/components/pricing-table';
-// import Footer from '@/components/footer';
+import FeatureSection from '@/components/feature-section';
+import CasesSection from '@/components/cases-section';
 import Footer2 from '@/components/footer-real';
-
 import About from '@/components/about';
-import FAQ from '@/components/FAQ';
-import Schedule from '@/components/schedule';
-import Register from '@/components/register';
+import {tw} from "twind";
+import {ReactNode, useState} from "react";
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
+
+// todo impl calendar logic here
+const writeToCalendar: Function = (date: string) => {
+  return "the date is " + date;
+}
 
 export default function Home() {
+  const [value, change] = useState<Date>(new Date());
+
+  // @ts-ignore
   return (
     <Page>
       <NextSeo
@@ -24,18 +27,25 @@ export default function Home() {
       />
       <Header />
       <main>
-        {/* <VideoSection /> */}
         <About />
-        <FAQ />
-        <Schedule />
-        <Register />
-
-        {/* <FeatureSection />
+        <FeatureSection />
         <CasesSection />
-        <SocialProof />
-        <PricingTable /> */}
+
+        {/*calendar section*/}
+        <div id={"calendar"} className={tw(`mt-12 flex flex-col text-center items-center justify-center`)}>
+          <div className={tw(`accent-box`)} />
+          <p className={tw(`mt-8 text-4xl lg:text-5xl font-bold tracking-tight text-gray-900`)}>
+            Our Club Calendar
+          </p>
+        </div>
+        <Calendar onChange={change}
+                  value={value}
+        />
+        <p className={tw(`text-center mb-10`)}>{writeToCalendar(value.toLocaleDateString())}</p>
       </main>
-      {/* <Footer2 /> */}
+       {/*end of calendar section*/}
+
+       <Footer2 />
     </Page>
   );
 }
