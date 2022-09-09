@@ -2,37 +2,6 @@ import { tw } from 'twind';
 
 const About = () => (
   <div>
-    {/* <Headline color="primaryDark">Welcome to the “hackathon.”</Headline>
-        <Lead my={3} maxWidth={48}>
-        Hack Pennsylvania is a 24-hour event where 150 programmers, artists,
-        designers, & other high schoolers from across the Northeast will
-        come together to build apps & games. We’ll provide workshops,
-        mentorship, free meals & drinks, & places to sleep. The next
-        morning, judges will pick the best projects to demo and win prizes.
-        </Lead>
-        <Modules>
-            <Module
-            icon="welcome"
-            name="Beginner-oriented"
-            body="Students of all skill levels are welcome—we’ll hold multiple intro workshops & mentors will help you out!"
-            />
-            <Module
-            icon="emoji"
-            name="Endless fun"
-            body="It goes way beyond coding. Meet new friends, come to the 2am dance party, win prizes."
-            />
-            <Module
-            icon="rep"
-            name="Fabulous food"
-            body="You’ll be served Panera dinner, midnight ice cream, bagel breakfast, & continuous snacks. (alt’s available)"
-            />
-            <Module
-            icon="bag"
-            name="You woodn’t believe the prizes"
-            body="Pine over the AirPods, Google Home, Raspberry Pi, speakers, batteries, software subscriptions, & much more."
-            />
-        </Modules> */}
-
     <section className={tw(`lg:pt-14 pt-14 overflow-hidden`)}>
       <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
         <div className={tw(`mb-12 flex flex-col text-center items-center justify-center`)}>
@@ -44,32 +13,11 @@ const About = () => (
         </div>
         <div className={tw(`flex flex-col text-center items-center justify-center`)}>
           <h3 className={tw(`pb-20 text-xl lg:text-3xl tracking-wider text-gray-900`)}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet vestibulum ligula in gravida. Nullam sagittis ligula eget viverra lacinia. Curabitur ornare placerat eleifend. Morbi sem dolor, cursus vitae velit ut, tincidunt euismod enim. Mauris nibh nibh, accumsan a eros ac, congue molestie libero. Vestibulum vulputate porta finibus. Nullam metus nulla, luctus ut sapien vel, varius rhoncus nibh.
+            AV Hacks is a student-led organization that teaches students how to use technology to make an real world impact. We develop projects, invite guest speakers, and host hackathons in order to help students pursue passions for computer science.
+            We are also partnered with Hack Club to provide benefits to our members.
+
           </h3>
         </div>
-
-       {/*<Modules>*/}
-       {/*         <Module*/}
-       {/*         icon="welcome"*/}
-       {/*         name="Beginner-oriented"*/}
-       {/*         body="Students of all skill levels are welcome—we’ll hold multiple intro workshops & mentors will help you out!"*/}
-       {/*         />*/}
-       {/*         <Module*/}
-       {/*         icon="emoji"*/}
-       {/*         name="Endless fun"*/}
-       {/*         body="It goes way beyond coding. Meet new friends, come to the 2am dance party, win prizes."*/}
-       {/*         />*/}
-       {/*         <Module*/}
-       {/*         icon="rep"*/}
-       {/*         name="Fabulous food"*/}
-       {/*         body="You’ll be served Panera dinner, midnight ice cream, bagel breakfast, & continuous snacks. (alt’s available)"*/}
-       {/*         />*/}
-       {/*         <Module*/}
-       {/*         icon="bag"*/}
-       {/*         name="You woodn’t believe the prizes"*/}
-       {/*         body="Pine over the AirPods, Google Home, Raspberry Pi, speakers, batteries, software subscriptions, & much more."*/}
-       {/*         />*/}
-       {/*     </Modules> */}
       </div>
     </section>
   </div>
