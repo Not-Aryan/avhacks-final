@@ -9,6 +9,7 @@ import {tw} from "twind";
 import {ReactNode, useState} from "react";
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import ProjectsSection from "@/components/projects-section";
 
 const clubMeetingDates = [
   "9/23/2022",
@@ -43,6 +44,7 @@ export default function Home() {
         <About />
         <FeatureSection />
         <CasesSection />
+        <ProjectsSection />
 
         {/*calendar section*/}
         <div id={"calendar"} className={tw(`mt-12 flex flex-col text-center items-center justify-center`)}>
@@ -57,6 +59,7 @@ export default function Home() {
         <p className={tw(`text-center mb-10`)}>{writeToCalendar(value.toLocaleDateString())}</p>
       </main>
        {/*end of calendar section*/}
+
 
        <Footer2 />
     </Page>

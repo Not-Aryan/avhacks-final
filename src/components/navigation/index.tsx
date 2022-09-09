@@ -148,7 +148,7 @@ const Navigation = () => {
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
               {/* <Button modifier="border-0 mr-2">Contact sales</Button>
               <Button modifier="border-0 mr-2">Log in</Button> */}
-              <Link href="https://forms.gle/HjixYDAEFxDPfDwY8" >
+              <Link href="https://forms.gle/KhRKxT3AXioaaBsH9" >
                 <Button primary>Register Here!</Button>
               </Link>
             </div>

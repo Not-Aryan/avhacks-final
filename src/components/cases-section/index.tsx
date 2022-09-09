@@ -115,9 +115,9 @@ const CasesSection = () => (
                     height={300}
                   />
                 </div>
-                <div className={tw(`p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative`)}>
-                  <p className={tw(`uppercase text-sm text-gray-700 text-center pb-1 font-bold`)}>{article.role}</p>
-                  <p className={tw(`text-gray-500 text-center pb-1 text-sm`)}>{article.title}</p>
+                <div className={tw(`p-8 shadow-lg w-full mx-auto bg-white rounded-b z-30 relative`)}>
+                  <p className={tw(`text-lg text-gray-700 text-center pb-1 font-bold`)}>{article.role}</p>
+                  <p className={tw(`text-gray-500 text-center pb-1 text-md`)}>{article.title}</p>
                 </div>
               </div>
             ))}

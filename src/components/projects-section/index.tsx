@@ -1,12 +1,12 @@
 import { tw } from 'twind';
 import Check from '@/constants/svg/check.svg';
 
-const meetingInfoData = [
+const projectData = [
   {
-    title: "AV Hacks Meeting #1",
-    date: 'September 23, 2022',
-    description: 'We introduced what we will do at AV Hacks, how we plan to organize projects, and teach programming material.',
-    link: "https://tinyurl.com/mvx4nud7",
+    title: "TBD",
+    date: 'TBD',
+    description: 'More information to come later.',
+    link: "",
   },
   // {
   //   title: "Second Meeting",
@@ -30,12 +30,12 @@ const FeatureSection = () => (
         <div className={tw(`mb-16 text-center flex flex-col text-center items-center justify-center`)}>
           <div className={tw(`accent-box`)} />
           <p className={tw(`mt-8 text-4xl lg:text-5xl font-bold tracking-tight text-gray-900`)}>
-            Our Meeting Resources/Info
+            Our Club Projects
           </p>
         </div>
         <div className={tw(`flex flex-wrap my-12`)}>
 
-          {meetingInfoData.map((data, index) => (
+          {projectData.map((data, index) => (
             <div className={tw(`w-full bg-white border-b lg:border-r rounded-xl shadow-md p-8 my-4`)}>
               <div className={tw(`flex flex-col justify-start  mb-6`)}>
                 <div className={tw(`text-3xl font-bold`)}>{data.title}</div>
@@ -48,7 +48,7 @@ const FeatureSection = () => (
                 Link to resources: <a rel={"noopener noreferrer"} target={"_blank"} style={{color: "rgb(6 182 212) !important"}} href={data.link}>{data.link}</a>
               </p>
             </div>
-            ))
+          ))
           }
 
         </div>
