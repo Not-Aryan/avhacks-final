@@ -10,9 +10,22 @@ import {ReactNode, useState} from "react";
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 
-// todo impl calendar logic here
+const clubMeetingDates = [
+  "9/23/2022",
+  "10/7/2022",
+  "10/21/2022",
+  "11/4/2022",
+  "11/18/2022",
+  "12/2/2022"
+]
+
 const writeToCalendar: Function = (date: string) => {
-  return "the date is " + date;
+
+  if (clubMeetingDates.includes(date)) {
+    return "Club Meeting Today!"
+  }
+
+  return "";
 }
 
 export default function Home() {
@@ -23,7 +36,7 @@ export default function Home() {
     <Page>
       <NextSeo
         title="AV Hacks"
-        description="AV Hacks is a 12-hour event where programmers, artists, designers, & other high schoolers from across the Bay Area will come together to build apps & games. We’ll provide workshops, mentorship, free meals & drinks, & prizes!"
+        description="AV Hacks is a student-led organization that teaches students how to use technology to make an real world impact."
       />
       <Header />
       <main>

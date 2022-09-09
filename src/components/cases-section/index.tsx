@@ -45,38 +45,44 @@ const ParticleBg = () => (
 
 const articles = [
   {
-    role: "President",
+    role: "Co-President - Aryan Jain",
     title: `Velit reprehenderit culpa Lorem reprehenderit excepteur ipsum esse.`,
     image: `/images/case-1.webp`,
     alt: `Proident pariatur est.`,
   },
   {
-    role: "President",
-    title: `Velit reprehenderit culpa Lorem reprehenderit ipsum esse.`,
-    image: `/images/case-2.webp`,
+    role: "Co-President - Pranav Subbaraman",
+    title: `Hi, I’m Pranav the co-president of AV Hacks this year. I love coding in my free time and hope to have a great year with all the members of AV Hacks.`,
+    image: `/images/pranav.jpg`,
     alt: `Proident pariatur est.`,
   },
   {
-    role: "President",
+    role: "External VP - Evan Tu",
+    title: `Hi, I'm Evan and I'm a current junior at Amador. I'm passionate about web and app development, and I look forward on building more projects for my community.`,
+    image: `/images/evan.png`,
+    alt: `Proident pariatur est.`,
+  },
+  {
+    role: "Internal VP - Ishayu Shikhare",
+    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur ipsum esse.`,
+    image: `/images/case-1.webp`,
+    alt: `Proident pariatur est.`,
+  },
+  {
+    role: "Treasurer - Anuraag Aravindan",
     title: `Velit reprehenderit culpa Lorem reprehenderit excepteur esse.`,
     image: `/images/case-3.webp`,
     alt: `Proident pariatur est.`,
   },
   {
-    role: "President",
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur ipsum esse.`,
-    image: `/images/case-1.webp`,
-    alt: `Proident pariatur est.`,
-  },
-  {
-    role: "President",
+    role: "Secretary - Saagnik Mitra",
     title: `Velit reprehenderit culpa Lorem reprehenderit ipsum esse.`,
     image: `/images/case-2.webp`,
     alt: `Proident pariatur est.`,
   },
   {
-    role: "President",
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur esse.`,
+    role: "Public Relations - Saksham Nirvan",
+    title: `Velit reprehenderit culpa Lorem reprehend excepteur esse.`,
     image: `/images/case-3.webp`,
     alt: `Proident pariatur est.`,
   },
@@ -90,9 +96,6 @@ const CasesSection = () => (
       </div>
       <div className={tw(`max-w-7xl mx-4 lg:mx-auto pt-20 lg:pt-40`)}>
         <h1 className={tw(`text-white text-4xl lg:text-7xl font-bold text-center`)}>Our Officers (2022-2023)</h1>
-        {/*<p className={tw(`text-white text-gray-400 text-center text-xl mt-12`)}>*/}
-        {/*  Don’t just take our word for it — see what leaders in digital are saying*/}
-        {/*</p>*/}
         <div className={tw(`mx-auto pt-24`)}>
           <div className={tw(`w-full flex flex-wrap justify-around`)}>
             {articles.map((article) => (
@@ -113,20 +116,11 @@ const CasesSection = () => (
                   />
                 </div>
                 <div className={tw(`p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative`)}>
-                  <p className={tw(`uppercase text-sm text-gray-700 text-center pb-1`)}>{article.role}</p>
+                  <p className={tw(`uppercase text-sm text-gray-700 text-center pb-1 font-bold`)}>{article.role}</p>
                   <p className={tw(`text-gray-500 text-center pb-1 text-sm`)}>{article.title}</p>
                 </div>
               </div>
             ))}
-            {/*<span*/}
-            {/*  className={tw(*/}
-            {/*    `-mt-8 pb-12 lg:mt-4 flex items-center text-xl*/}
-            {/*    text-indigo-400 cursor-pointer z-30 hover:text-indigo-600`,*/}
-            {/*  )}*/}
-            {/*>*/}
-            {/*  See all case studies*/}
-            {/*  <Arrow className={tw(`h-6 w-6 fill-current ml-2`)} />*/}
-            {/*</span>*/}
           </div>
         </div>
       </div>

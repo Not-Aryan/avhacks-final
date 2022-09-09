@@ -3,23 +3,23 @@ import Check from '@/constants/svg/check.svg';
 
 const meetingInfoData = [
   {
-    title: "First Meeting",
-    date: 'March 20, 2020',
-    description: 'Nostrud excepteur incididunt proident sit nulla ipsum sunt nostrud est esse adipisicing irure officia',
-    link: "https://docs.google.com/forms/u/1/d/e/1FAIpQLScEI6BpxhazFEJqMdJThRRdyRCbQaHumVvqUtZixj1S2A9_sA/viewform?usp=send_form",
+    title: "AV Hacks Meeting #1",
+    date: 'September 16, 2022',
+    description: 'We introduced what we will do at AV Hacks, how we plan to organize projects, and teach programming material.',
+    link: "https://tinyurl.com/mvx4nud7",
   },
-  {
-    title: "Second Meeting",
-    date: 'March 20, 2020',
-    description: 'Nostrud excepteur incididunt proident sit nulla ipsum sunt nostrud est esse adipisicing irure officia',
-    link: "https://docs.google.com/forms/u/1/d/e/1FAIpQLScEI6BpxhazFEJqMdJThRRdyRCbQaHumVvqUtZixj1S2A9_sA/viewform?usp=send_form",
-  },
-  {
-    title: "Third Meeting",
-    date: 'March 20, 2020',
-    description: 'Nostrud excepteur incididunt proident sit nulla ipsum sunt nostrud est esse adipisicing irure officia',
-    link: "https://docs.google.com/forms/u/1/d/e/1FAIpQLScEI6BpxhazFEJqMdJThRRdyRCbQaHumVvqUtZixj1S2A9_sA/viewform?usp=send_form",
-  }
+  // {
+  //   title: "Second Meeting",
+  //   date: 'March 20, 2020',
+  //   description: 'Nostrud excepteur incididunt proident sit nulla ipsum sunt nostrud est esse adipisicing irure officia',
+  //   link: "https://docs.google.com/forms/u/1/d/e/1FAIpQLScEI6BpxhazFEJqMdJThRRdyRCbQaHumVvqUtZixj1S2A9_sA/viewform?usp=send_form",
+  // },
+  // {
+  //   title: "Third Meeting",
+  //   date: 'March 20, 2020',
+  //   description: 'Nostrud excepteur incididunt proident sit nulla ipsum sunt nostrud est esse adipisicing irure officia',
+  //   link: "https://docs.google.com/forms/u/1/d/e/1FAIpQLScEI6BpxhazFEJqMdJThRRdyRCbQaHumVvqUtZixj1S2A9_sA/viewform?usp=send_form",
+  // }
 ]
 
 
@@ -36,10 +36,9 @@ const FeatureSection = () => (
         <div className={tw(`flex flex-wrap my-12`)}>
 
           {meetingInfoData.map((data, index) => (
-            <div className={tw(`w-full bg-white border-b lg:border-r rounded-3xl shadow-md p-8 my-4`)}>
+            <div className={tw(`w-full bg-white border-b lg:border-r rounded-xl shadow-md p-8 my-4`)}>
               <div className={tw(`flex flex-col justify-start  mb-6`)}>
-                <Check  fill="currentColor" className={tw(`h-8 w-8 text-indigo-500`)} />
-                <div className={tw(`text-3xl`)}>{data.title}</div>
+                <div className={tw(`text-3xl font-bold`)}>{data.title}</div>
                 <h3 className={tw(`leading-loose text-gray-500 text-xl`)}>{data.date}</h3>
               </div>
               <p className={tw(`leading-loose text-gray-500 text-xl`)}>
