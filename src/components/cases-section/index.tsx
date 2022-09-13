@@ -46,8 +46,8 @@ const ParticleBg = () => (
 const articles = [
   {
     role: "Co-President - Aryan Jain",
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur ipsum esse.`,
-    image: `/images/case-1.webp`,
+    title: `Hi, I'm Aryan, the founder and co-president of AV Hacks. I made AV Hacks to promote building impactful projects that enable students to make their community a better place. Feel free to reach out if you have any questions!`,
+    image: `/images/aryan.jpeg`,
     alt: `Proident pariatur est.`,
   },
   {
@@ -70,8 +70,8 @@ const articles = [
   },
   {
     role: "Treasurer - Anuraag Aravindan",
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur esse.`,
-    image: `/images/case-3.webp`,
+    title: `My name is Anuraag Aravindan, a senior at Amador Valley High School. I was born in Texas and moved to Pleasanton when I was 6. In my free time, I love to play tennis and spend time with my friends and family. When it comes to school I love to do math and code. Hopefully, you guys will learn a lot from us at AV Hacks.`,
+    image: `/images/ani.jpg`,
     alt: `Proident pariatur est.`,
   },
   {
